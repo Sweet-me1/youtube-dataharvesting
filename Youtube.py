@@ -815,5 +815,4 @@ elif question == '10. Highest number of comments in video and their correspondin
     conn.commit()
     st.write(pd.DataFrame(t10, columns=["Video Title","Channel Name","Comments"]))
 
-Streamlit link: http://localhost:8503/
 
